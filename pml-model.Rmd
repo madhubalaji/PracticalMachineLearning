@@ -1,0 +1,8 @@
+---
+title: "Practical Machine Learning Project Writeup"
+author: "Madhu Balaji"
+date: "August 11, 2015"
+output: html_document
+---
+
+
