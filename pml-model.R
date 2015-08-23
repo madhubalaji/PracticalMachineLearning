@@ -8,6 +8,7 @@ library(rattle)
 library(randomForest)
 set.seed(4680)
 
+## Details/Summary is provided in the RMD file
 
 trainUrl <- "http://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
 testUrl <- "http://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
@@ -104,5 +105,6 @@ pml_write_files = function(x){
 }
 
 pml_write_files(predictionFinal)
+
 
 

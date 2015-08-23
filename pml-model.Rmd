@@ -268,5 +268,7 @@ confusionMatrix(predictRF, myTest$classe)
 Final in-smaple prediction
 
 ```{r}
+
+
 predictionFinal <- predict(mFitRF, testing, type = "class")
 ```
